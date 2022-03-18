@@ -6,7 +6,7 @@ const Filter = (props) => {
 
     useEffect(()=>{
         filter(textFieldRef.current.value);
-    },props.data);
+    },[props.data]);
 
   const onChangeHandler = (event) => {
     filter(event.target.value);

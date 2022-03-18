@@ -1,6 +1,7 @@
 import { Card } from "@mui/material";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
+import { JSONTree } from "react-json-tree";
 
 const EntityPage = () => {
   const params = useParams();
@@ -20,10 +21,10 @@ const EntityPage = () => {
   if (params.type === "purchase") {
     displayData = purchasesData.find((customer) => customer.id === params.id);
   }
-  
+
   return (
     <Card>
-      <div>{JSON.stringify(displayData)}</div>
+      <JSONTree data={displayData}  />
     </Card>
   );
 };
