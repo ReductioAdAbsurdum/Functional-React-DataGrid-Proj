@@ -85,6 +85,8 @@ const PurchasesPage = () => {
         controlHeaderText="Purchases control"
         controlAddNewText="purchase"
         controlOnAddNew={showNewPurchaseForm}
+        filterLabel = {"Item Id"}
+        filterField = {"itemId"}
       />
     </Fragment>
   );

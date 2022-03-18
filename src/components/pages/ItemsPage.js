@@ -80,6 +80,8 @@ const ItemsPage = () => {
         controlHeaderText="Items control"
         controlAddNewText="item"
         controlOnAddNew={showNewItemForm}
+        filterLabel = {"Name"}
+        filterField = {"name"}
       />
     </Fragment>
   );

@@ -70,6 +70,8 @@ const CustomersPage = () => {
         controlHeaderText="Customers control"
         controlAddNewText="customer"
         controlOnAddNew={showNewCustomerForm}
+        filterLabel = {"Name"}
+        filterField = {"fullName"}
       />
     </Fragment>
   );
