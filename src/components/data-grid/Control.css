@@ -1,0 +1,24 @@
+.controlRegion {
+    width: 100%;
+    height: 5rem;
+    background-color: #81b0e9;
+    padding: 0 10%;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .controlRegion ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .controlRegion li {
+    margin: 0 1rem;
+    width: 5rem;
+
+  }
